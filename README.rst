@@ -1,8 +1,8 @@
-ikandou.douban
+ustclib.douban
 ==============
-这是爱看豆万卷书在Chrome或者Firefox的greasemonkey脚本源代码。在豆瓣读书旁自动显示这本书是否在爱看豆万卷书有相应的电子书，并提供下载链接。
+这是中科大图书馆在Chrome或者Firefox的greasemonkey脚本源代码。在豆瓣读书旁自动显示这本书是否在中科大图书馆有相应的藏书，并提供详细说明链接。
 
-多谢 `satoru <https://github.com/suzaku>`_ 童鞋提供的脚本，我做了稍微的样式修改，你现在可以在豆瓣读书的页面随时看到这本书是否在 `万卷书 <http://ikandou.com/book>`_ 上有对应的电子书。
+本插件修改自 `ikandou.douban <https://github.com/fengli/ikandou.douban>`_ 我对fengli老师的javascript代码进行了修改，并用php写了一个可以从学校图书馆数据库查询的中介程序。
 
 如何使用这个插件
 ==================
@@ -12,22 +12,22 @@ ikandou.douban
 
 * 如果你是Chrome用户
 
-  请猛击 `这个页面 <http://userscripts.org/scripts/show/134658/>`_ ，点击页面右上角的Install，就会自动安装到你的浏览器。
+  请猛击 `这个页面 <https://chrome.google.com/webstore/detail/%E4%B8%AD%E7%A7%91%E5%A4%A7%E5%9B%BE%E4%B9%A6%E9%A6%86%E8%B1%86%E7%93%A3%E6%8F%92%E4%BB%B6/ihjjbkpbdghopmmnnanadnnfcljcbicm>`_ ，点击页面右上角的Add To Chrome，就会自动安装到你的浏览器。
 
 * 如果你是Firefox用户
 
   先安装 `greasemonkey <https://addons.mozilla.org/zh-CN/firefox/addon/greasemonkey/>`_ 插件
-然后就跟Chrome安装一样了，点击 `这个页面 <http://userscripts.org/scripts/show/134658>`_ 上方的install，就可以安装到Firefox了。
+然后就跟Chrome安装一样了，点击 `这个页面 <http://userscripts.org/scripts/show/163748>`_ 上方的install，就可以安装到Firefox了。
 
 安装之后的效果
 -----------------
 
-比如豆瓣读书的 `这个页面 <http://book.douban.com/subject/1146267/>`_ ，会成为 `这个样子 <http://blog.ikindle.mobi/wp-content/uploads/2012/05/Screenshot-10.png>`_ 
+比如豆瓣读书的 `这个页面 <http://book.douban.com/subject/1885170/>`_ ，会成为 `这个样子 <http://home.ustc.edu.cn/~congzhao/ustclib/smallProm.jpg>`_ 
 
 如何测试安装时否成功
 ----------------
 
-猛击豆瓣读书的 `这个页面 <http://book.douban.com/subject/1146267/>`_  ,如果显示跟上图一样，说明安装成功了。有任何问题或者建议，发送邮件到okidogiii@gmail.com 。
+猛击豆瓣读书的 `这个页面 <http://book.douban.com/subject/1885170/>`_  ,如果显示跟上图一样，说明安装成功了。有任何问题或者建议，发送邮件到zhaocong89@gmail.com 。
 
 如何贡献源代码到这个插件
 ====================
