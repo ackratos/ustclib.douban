@@ -17,7 +17,7 @@ ustclib.douban
 * 如果你是Firefox用户
 
   先安装 `greasemonkey <https://addons.mozilla.org/zh-CN/firefox/addon/greasemonkey/>`_ 插件
-然后就跟Chrome安装一样了，点击 `这个页面 <http://userscripts.org/scripts/show/163748>`_ 上方的install，就可以安装到Firefox了。
+然后点击 `这个页面 <http://userscripts.org/scripts/show/163748>`_ 上方的install，就可以安装到Firefox了。
 
 安装之后的效果
 -----------------
