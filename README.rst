@@ -1,5 +1,8 @@
 ustclib.douban
 ==============
+
+目前已知严重BUG:会和ikandou.douban插件冲突，如果已经安装了ikandou.douban插件，请先禁用，我会尽快修复bug。
+
 这是中科大图书馆在Chrome或者Firefox的greasemonkey脚本源代码。在豆瓣读书旁自动显示这本书是否在中科大图书馆有相应的藏书，并提供详细说明链接。
 
 本插件修改自 `ikandou.douban <https://github.com/fengli/ikandou.douban>`_ 我对fengli老师的javascript代码进行了修改，并用php写了一个可以从学校图书馆数据库查询的中介程序。
