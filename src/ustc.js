@@ -33,7 +33,7 @@ function init(){
     var WRAPPER_TMPL =  '<div class="gray_ad">'+
 	'<h2><a href="http://lib.ustc.edu.cn/" target="_blank">中科大图书馆藏书››</a></h2>' +
 	'<ul class="bs"><li class="msg" style="display:none;color:#333;">' +
-	'我科图书馆还没有此书，您可以考虑<a target="_blank" href="http://lib.ustc.edu.cn/2012/plus/view.php?aid=345">荐购一本</a>,'+
+	'我科图书馆还没有此书，您可以考虑<a target="_blank" href="http://lib.ustc.edu.cn/%E6%9C%8D%E5%8A%A1%E6%8C%87%E5%8D%97/%E5%9B%BE%E4%B9%A6%E8%8D%90%E8%B4%AD/">荐购一本</a>,'+
 	'<br>或者<a href="http://lib.ustc.edu.cn">去看看</a>其它有趣的书</li></ul>'+
 	'</div>',
         ITEM_TMPL_RELATED = '<li><a target="_blank" href="{{=url }}">{{=title }}</a><b class="pl" style="padding-left:5px;">馆藏数:{{=totalcount }}</b><b class="pl" style="padding-left:5px;">可借数:{{=accessible }}</b></li>';	
@@ -67,7 +67,7 @@ function init(){
 	subjectIsbn = subjectIsbn.match(/ISBN: [0-9]+/)[0];
 	subjectIsbn = subjectIsbn.match(/[0-9]+/)[0];
 	var bookname = document.getElementsByTagName("h1").item(0).textContent;
-	var matchUrl = "http://210.45.114.178:7629/getBookInfo.php?isbn=" + subjectIsbn + "&bookname=" + bookname;
+	var matchUrl = "http://ustcdouban.ackratos.info/getBookInfo.php?isbn=" + subjectIsbn + "&bookname=" + bookname;
     $.getScript(matchUrl);
 }
 
